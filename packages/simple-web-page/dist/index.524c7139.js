@@ -1,0 +1,2 @@
+let t;function n(t,n={},o=[]){return{tag:t,attributes:n,children:o}}let o={count:0};function e(){var n;n={count:o.count+1},o={...o,...n},patch(t,c(o)),console.log("State updated:",o)}function c(o){let c=patch(t,n("div",{},[n("h1",{},[o.count]),n("button",{onClick:e},["Add"])]));return t||console.log("Component mounted"),t=c}patch(document.getElementById("container"),c(o));
+//# sourceMappingURL=index.524c7139.js.map
